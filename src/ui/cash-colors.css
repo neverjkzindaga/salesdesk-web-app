@@ -1,0 +1,26 @@
+.cashier-home-action{background:#173a61;color:#fff;border:1px solid #31567c;box-shadow:0 12px 30px #163f6826}
+.cashier-home-action .eyebrow{color:#c9e5ff}
+.cashier-home-action p{color:#e2eefb}
+.cashier-home-action .btn.primary{background:#fff;color:#173a61}
+.cashier-home-action .btn.primary:hover{background:#e7f2fc;color:#173a61}
+.cashier-home-icon{background:#ffffff26;color:#fff}
+.cashier-banner{background:#eaf2fa;color:#173a61;border:1px solid #cbdced;box-shadow:0 8px 24px #1b4f7d12}
+.cashier-banner-icon{background:#d3e5f7;color:#245e9e}
+.cashier-banner p{color:#45627f}
+.cashier-banner-step{color:#2a5e93}
+.add-cart-btn{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;border:1px solid #bfd3ed;background:#e9f2ff;color:#1b56a0;border-radius:8px;padding:8px 10px;font-weight:750;cursor:pointer}
+.add-cart-btn:hover:not(:disabled){background:#d9eaff}
+.add-cart-btn:disabled{opacity:.5;cursor:not-allowed}
+.product-picker-item .add-cart-btn{margin-left:auto}
+.composer-line .quantity-control input{width:48px;min-width:0;text-align:center;border:0;padding:3px;font-weight:700;background:transparent}
+.cart-count{display:inline-grid;place-items:center;min-width:24px;height:24px;padding:0 5px;border-radius:12px;background:#dceafa;color:#1b56a0;font-size:13px}
+.cart-message{display:flex;justify-content:space-between;align-items:center;gap:10px;color:#126348;background:#e7f7ef;border-radius:8px;padding:9px 12px;font-size:13px}
+.cart-message button{border:0;background:transparent;color:inherit;cursor:pointer}
+.beat-form{max-width:750px;max-height:90vh;overflow:auto}
+.coverage-fieldset{border:1px solid #dce5f0;border-radius:10px;padding:14px;margin:10px 0}
+.coverage-fieldset legend{font-weight:750;color:#254768;padding:0 6px}
+.coverage-fieldset p{font-size:13px;color:#657c92;margin:0 0 12px}
+.coverage-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.coverage-options label{display:flex;gap:8px;align-items:center;font-size:14px}
+.beat-form-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:16px}
+@media(max-width:700px){.coverage-options{grid-template-columns:1fr}.cashier-banner{flex-wrap:wrap}}

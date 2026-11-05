@@ -1,0 +1,7 @@
+/* The form sits in the photograph's dark open area, keeping the team visible. */
+.login-backdrop{background:linear-gradient(90deg,#102440df 0%,#102440b4 31%,#10244024 58%,#10244008 100%),url('/images/salesdesk-team.png') center center/cover no-repeat;filter:none}
+.login-modern-main{display:flex;justify-content:flex-start;align-items:center;padding:34px max(5vw,24px) 65px}
+.login-story{display:none}
+.login-modern-card{width:min(440px,100%);flex:none;padding:30px;box-shadow:0 24px 65px #06172c66}
+.login-top>a:last-child{background:#10244073;border:1px solid #ffffff40;border-radius:10px;padding:9px 12px;backdrop-filter:blur(8px)}
+@media(max-width:760px){.login-modern{background:#102440}.login-backdrop{height:280px;bottom:auto;background:linear-gradient(180deg,#10244070 0%,#10244020 58%,#102440 100%),url('/images/salesdesk-team.png') 68% center/cover no-repeat}.login-modern-main{min-height:auto;display:block;padding:168px 20px 30px}.login-modern-card{width:100%;padding:24px}.login-bottom{padding:0 20px 24px}}
